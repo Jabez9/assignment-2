@@ -1,0 +1,47 @@
+/* portfolio.css */
+
+body {
+    font-family: 'Corbel', Arial, sans-serif;
+}
+
+.hero-section {
+    background-color: #007bff; /* Blue background */
+    color: #ffb700; /* Orange text color */
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.hero-section h1,
+.hero-section p {
+    color: #ffb700; /*give the orange color to the wordings in my hero section*/
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #222;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.social-icons a {
+    font-size: 1.5rem; /* icon sizes */
+    color: #ffb700; 
+    margin: 0 10px; /* Space between icons */
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /*  on hover, color changes to  */
+}
+
+
